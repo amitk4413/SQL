@@ -1,0 +1,2 @@
+select name from(
+select distinct name ,id from students where marks > 75 order by substr(name,-3)  , id);

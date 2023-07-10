@@ -1,0 +1,1 @@
+select name from city c where c.countrycode='JPN';
